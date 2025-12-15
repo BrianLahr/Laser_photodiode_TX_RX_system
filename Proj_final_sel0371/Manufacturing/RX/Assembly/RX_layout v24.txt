@@ -1,0 +1,16 @@
+Partlist exported from Fusion Hub: Grupo C   Project: Projeto_Sistema_comunicacao  Board: RX_layout v24 at 15/12/2025 13:28
+
+Qty Value     Device    Package               Parts    Description CATEGORY  DESCRIPTION MANUFACTURER MPN OPERATING_TEMP PART_STATUS ROHS_COMPLIANT SERIES SUB-CATEGORY THERMALLOSS TYPE
+1   10        R_PTH     RESAD1176W63L850D250B R3                                                                                                                                        
+1   10k       R_PTH     RESAD1176W63L850D250B R5                                                                                                                                        
+1   11k       R_PTH     RESAD1176W63L850D250B R4                                                                                                                                        
+1   18k       R_PTH     RESAD1176W63L850D250B R7                                                                                                                                        
+1   1k        R_PTH     RESAD1176W63L850D250B R2                                                                                                                                        
+2   2.2k      R_PTH     RESAD1176W63L850D250B R6, R8                                                                                                                                    
+1   2p        C         CAPRD200W65D350H500B  C2                                                                                                                                        
+1   3.3p      C         CAPRD200W65D350H500B  C3                                                                                                                                        
+1   330n      CC1210(N) C1210(N)              C1                                                                                                                                        
+1   9.1k      R_PTH     RESAD1176W63L850D250B R1                                                                                                                                        
+1   LM359     LM359     SOIC127P600X175-14N   LM359                                                                                                                                     
+2   PINHD-1X1 PINHD-1X1 1X01                  JP2, JP3 PIN HEADER  CONNECTOR                                                                               PIN-HEADER                   
+1   VEMD2500  VEMD2500  SOD5924X160N          DETECTOR                                                                                                                                  
