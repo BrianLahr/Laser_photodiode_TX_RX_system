@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red15\green111\blue1;\red0\green0\blue0;\red0\green0\blue255;
+}
+{\*\expandedcolortbl;;\cspthree\c21414\c49031\c13018;\cspthree\c0\c0\c0;\cspthree\c22\c0\c95960;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 * /Users/brian/Downloads/TX_BJT-2.asc\cf3 \
+R1 P001 0 100\
+D1 VCC N003 D\
+V1 VCC 0 9\
+R2 N001 0 1.5k\
+R4 VCC N004 100k\
+R5 N004 -VCC 100k\
+V2 -VCC 0 -9\
+R3 N001 N002 1k\
+C1 N004 N002 3.3p\
+XU2 N005 N002 VCC -VCC N004 level4 Avol=1Meg GBW=10Meg Slew=10Meg Ilimit=25m Rail=0 Vos=0 Phimargin=45 En=0 Enk=0 In=0 Ink=0 Rin=500Meg Ro=1k Ccm=1p Cdiff=2p\
+B1 VCC N001 I=I(D1)/30\
+V3 N005 0 PULSE(0 1 0 0.01u 0.01u 5u 1u) AC 1 0\
+Q1 N003 N004 P001 0 2N2222\
+\cf4 .model D D\cf3 \
+\cf4 .lib /Users/brian/Library/Application Support/LTspice/lib/cmp/standard.dio\cf3 \
+\cf4 .model NPN NPN\cf3 \
+\cf4 .model PNP PNP\cf3 \
+\cf4 .lib /Users/brian/Library/Application Support/LTspice/lib/cmp/standard.bjt\cf3 \
+\cf4 .model BF245C NJF(Vto=-6.5 Beta=0.45m Lambda=2.4m Rd=1.2 Rs=1.2 Cgs=2.9p Cgd=1.1p Is=20f Pb=1 Fc=0.5)\cf3 \
+\cf4 .tran 110u 100u\cf3 \
+\cf4 .lib UniversalOpAmp4.lib\cf3 \
+\cf4 .backanno\cf3 \
+\cf4 .end}
