@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2025-12-15T16:28:36Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.6608,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "PCB v24"
+        },
+        "Owner": "Antônio Miranda <antonio.vale@wr.sc.usp.br>",
+        "Size": {
+            "X": 61,
+            "Y": 45
+        }
+    }
+}
